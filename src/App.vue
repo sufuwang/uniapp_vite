@@ -2,6 +2,6 @@
   <div>
   </div>
 </template>
-<docs src='./test.text'></docs>
+<docs src='./test.docs'></docs>
 <script>
 </script>
