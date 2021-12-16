@@ -1,9 +1,7 @@
-<style lang="less" src="@styles/a.less"></style>
-<style lang="less" src="@styles/b.less"></style>
-
-
+<template>asas</template>
 <script>
+export default {
+  onLoad() {
+  }
+}
 </script>
-
-<style>
-</style>
