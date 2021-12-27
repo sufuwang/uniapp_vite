@@ -5,15 +5,8 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
-		},
-		{
+		}, {
 			"path": "pages/other/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		},
-		{
-			"path": "pages/test/index",
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
