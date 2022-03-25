@@ -2,6 +2,7 @@
   <div>
     组件
     {{ data }}
+    {{ other }}
   </div>
 </template>
 <script lang="ts">
@@ -9,7 +10,8 @@ import { onShow } from "@dcloudio/uni-app"
 
 export default {
   props: {
-    data: Object
+    data: Object,
+    other: Object
   },
   setup(props: any) {
     onShow(() => {
