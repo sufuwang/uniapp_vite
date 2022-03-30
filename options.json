@@ -1,0 +1,124 @@
+
+{
+  "plugins": [
+    {
+      "name": "vite:vue"
+    }
+  ],
+  "server": {
+    "preTransformRequests": true,
+    "fs": {
+      "strict": true,
+      "allow": [
+        "/Users/sufuwang/Downloads/Code/Github/vue3_vite"
+      ],
+      "deny": [
+        ".env",
+        ".env.*",
+        "*.{crt,pem}"
+      ]
+    }
+  },
+  "define": {
+    "__VUE_OPTIONS_API__": true,
+    "__VUE_PROD_DEVTOOLS__": false
+  },
+  "ssr": {
+    "external": [
+      "vue",
+      "@vue/server-renderer"
+    ]
+  },
+  "configFile": "/Users/sufuwang/Downloads/Code/Github/vue3_vite/vite.config.ts",
+  "configFileDependencies": [
+    "vite.config.ts"
+  ],
+  "inlineConfig": {
+    "server": {}
+  },
+  "root": "/Users/sufuwang/Downloads/Code/Github/vue3_vite",
+  "base": "/",
+  "resolve": {
+    "alias": [
+      {
+        "find": {}
+      },
+      {
+        "find": {}
+      }
+    ]
+  },
+  "publicDir": "/Users/sufuwang/Downloads/Code/Github/vue3_vite/public",
+  "cacheDir": "/Users/sufuwang/Downloads/Code/Github/vue3_vite/node_modules/.vite",
+  "command": "serve",
+  "mode": "development",
+  "isProduction": false,
+  "build": {
+    "target": [
+      "es2019",
+      "edge88",
+      "firefox78",
+      "chrome87",
+      "safari13.1"
+    ],
+    "polyfillModulePreload": true,
+    "outDir": "dist",
+    "assetsDir": "assets",
+    "assetsInlineLimit": 4096,
+    "cssCodeSplit": true,
+    "cssTarget": [
+      "es2019",
+      "edge88",
+      "firefox78",
+      "chrome87",
+      "safari13.1"
+    ],
+    "sourcemap": false,
+    "rollupOptions": {},
+    "minify": "esbuild",
+    "terserOptions": {},
+    "write": true,
+    "emptyOutDir": null,
+    "manifest": false,
+    "lib": false,
+    "ssr": false,
+    "ssrManifest": false,
+    "reportCompressedSize": true,
+    "chunkSizeWarningLimit": 500,
+    "watch": null,
+    "commonjsOptions": {
+      "include": [
+        {}
+      ],
+      "extensions": [
+        ".js",
+        ".cjs"
+      ]
+    },
+    "dynamicImportVarsOptions": {
+      "warnOnError": true,
+      "exclude": [
+        {}
+      ]
+    }
+  },
+  "preview": {},
+  "env": {
+    "BASE_URL": "/",
+    "MODE": "development",
+    "DEV": true,
+    "PROD": false
+  },
+  "logger": {
+    "hasWarned": false
+  },
+  "packageCache": {},
+  "optimizeDeps": {
+    "esbuildOptions": {}
+  },
+  "worker": {
+    "format": "iife",
+    "plugins": [],
+    "rollupOptions": {}
+  }
+}
